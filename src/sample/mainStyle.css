@@ -1,30 +1,87 @@
 .rootVbox {
+ -fx-pref-width: 600;
+ -fx-background-color: rgba(90, 110, 135, 1);
 
 }
 
 .TopPanel { 
 
- -fx-background-color: #faf3de;
- -fx-min-height: 50;
- -fx-max-height: 50;
+ -fx-background-color: #2a4f5c;
+ -fx-min-height: 40;
+ -fx-max-height: 40;
 
-}
-
-.TextPanel { 
-
-
-}
-
-.text-area  { 
- -fx-pref-height: 100; 
-}
-
-.text-area .content { 
-
- -fx-background-color: #dee9fa;
- 
 }
 
 .text-field {
- -fx-max-width: 40;
+ -fx-min-width: 50;
+ -fx-max-width: 50;
+ -fx-max-height: 25;
+ -fx-min-height: 25;
+ -fx-text-fill: #f0f9fc;
+ -fx-alignment: center;
+ -fx-border-color: #7897a1;
+ -fx-border-radius: 3;
+ -fx-border-width: 1;
+ -fx-background-color: #587680;
 }
+.text-field:hover {
+ -fx-border-color: #9fc3cf;
+}
+
+.button {
+ -fx-pref-width: 100;
+ -fx-max-height: 25;
+ -fx-text-fill: #173f42;
+ -fx-alignment: center;
+ -fx-border-color: #467c80;
+ -fx-border-radius: 3;
+ -fx-border-width: 0;
+ -fx-background-color: #62a1a6;
+
+}
+.button:hover {
+ -fx-background-color: #82c0c4;
+
+}
+
+
+
+/*-----------------------------------*/
+.split-pane {
+-fx-background-color: rgba(200, 230, 230, 0);
+}
+.split-pane-divider {
+-fx-background-color: rgba(200, 230, 230, 0);
+-fx-pref-width: 2;
+}
+
+
+
+.text-area  { 
+ -fx-pref-height: 100; 
+ -fx-border-width: 0;
+}
+
+.text-area  .text{ 
+ -fx-pref-height: 100; 
+ -fx-text-fill: red;
+}
+
+
+
+.text-area .content { 
+
+ -fx-background-color: #697680;
+ -fx-text-fill: red;
+ -fx-border-width: 0;
+ 
+}
+
+.text-area .viewport { 
+ -fx-border-width: 0;
+}
+
+.text-area .scroll-pane:fitToWidth:fitToHeight { 
+ -fx-border-width: 0;
+}
+

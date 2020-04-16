@@ -24,3 +24,7 @@
  -fx-background-color: #dee9fa;
  
 }
+
+.text-field {
+ -fx-max-width: 40;
+}

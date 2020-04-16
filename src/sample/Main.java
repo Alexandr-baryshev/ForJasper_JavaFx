@@ -15,7 +15,7 @@ public class Main extends Application {
       Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
 //      primaryStage.initStyle(StageStyle.TRANSPARENT);
 //      primaryStage.setOpacity(0.5);
-      primaryStage.setTitle("Герератор");
+      primaryStage.setTitle("Генератор");
       primaryStage.setScene(new Scene(root, 800, 400));
       primaryStage.show();
 

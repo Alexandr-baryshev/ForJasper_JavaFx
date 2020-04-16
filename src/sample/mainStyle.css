@@ -1,0 +1,8 @@
+.combo-box { /*---Меню условий: равно, заполнено и тд. ---*/
+
+ -fx-background-color: -fx-operatorMenu_bg;
+ -fx-background-radius: 5 ;
+ -fx-border-radius: 5 ;
+ -fx-pref-height: 26;
+ -fx-pref-width: 130;
+}

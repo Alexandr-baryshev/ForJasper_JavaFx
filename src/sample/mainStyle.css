@@ -1,6 +1,13 @@
+.root { 
+	-fx-background-color: #2b313b; 
+	-fx-pref-width: 600;
+
+}
+
 .rootVbox {
  -fx-pref-width: 600;
- -fx-background-color: rgba(90, 110, 135, 1);
+/* -fx-background-color: rgba(90, 110, 135, 1);*/
+-fx-background-color: transparent;
 
 }
 
@@ -57,31 +64,40 @@
 
 
 
-.text-area  { 
- -fx-pref-height: 100; 
- -fx-border-width: 0;
+.text-area {
+	    -fx-background-radius: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: #cee2ed;
 }
 
-.text-area  .text{ 
- -fx-pref-height: 100; 
- -fx-text-fill: red;
+.text-area .content {
+    -fx-background-color: #3c4b61;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #566985;
+    -fx-padding: 3px;
+    -fx-text-fill: #70afd4;
+    -fx-highlight-fill: #7ecfff;
+}
+
+.text-area .content:hover {
+
+    -fx-border-color: #567b85;
+
+}
+
+.text-area:focused .content {
+    -fx-background-color: #4c5d75;
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #7ecfff;
 }
 
 
+.text-area .viewport{
+    -fx-background-color: transparent;
 
-.text-area .content { 
-
- -fx-background-color: #697680;
- -fx-text-fill: red;
- -fx-border-width: 0;
- 
 }
 
-.text-area .viewport { 
- -fx-border-width: 0;
-}
-
-.text-area .scroll-pane:fitToWidth:fitToHeight { 
- -fx-border-width: 0;
-}
 

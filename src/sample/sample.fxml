@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="TOP_CENTER" spacing="3.0" styleClass="rootVbox" stylesheets="@mainStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<VBox alignment="TOP_CENTER" spacing="3.0" stylesheets="@mainStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <HBox alignment="CENTER_LEFT" spacing="5.0" styleClass="TopPanel" VBox.vgrow="ALWAYS">
         <TextField fx:id="rStart_p" text="1" />
         <TextField fx:id="rSize_p" text="1" />
@@ -31,7 +31,7 @@
         <VBox.margin>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
         </VBox.margin>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+        <AnchorPane id="AnP" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
             <TextArea fx:id="inputTexField" promptText="Введите значение переменной R1 C1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
         </AnchorPane>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">

@@ -1,0 +1,3 @@
+	<variable name="R1 C1" class="java.lang.Integer" calculation="DistinctCount">
+		<variableExpression><![CDATA[$V{R1} && $V{C1} ? $F{Идентификатор происшествия} : null]]></variableExpression>
+	</variable>

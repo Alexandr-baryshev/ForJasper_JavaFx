@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
-<VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller" />
+<VBox alignment="TOP_CENTER" minHeight="-Infinity" styleClass=".rootVbox" stylesheets="@mainStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <HBox alignment="CENTER_LEFT" spacing="5.0" styleClass="TopPanel" VBox.vgrow="ALWAYS">
+        <TextField fx:id="rStart_p" />
+        <TextField fx:id="rSize_p" />
+      <TextField fx:id="cStart_p" />
+      <TextField fx:id="cSize_p" />
+      <TextField fx:id="sort_RC" />
+      <Button fx:id="startButton" mnemonicParsing="false" text="Старт" />
+      <padding>
+         <Insets left="5.0" />
+      </padding>
+    </HBox>
+    <VBox spacing="5.0" styleClass="TextPanel" VBox.vgrow="ALWAYS">
+        <TextArea fx:id="inputText" VBox.vgrow="ALWAYS" />
+        <TextArea fx:id="outText" VBox.vgrow="ALWAYS" />
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+    </VBox>
+</VBox>

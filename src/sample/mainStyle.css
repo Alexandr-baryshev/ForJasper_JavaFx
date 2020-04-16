@@ -1,8 +1,26 @@
-.combo-box { /*---Меню условий: равно, заполнено и тд. ---*/
+.rootVbox {
 
- -fx-background-color: -fx-operatorMenu_bg;
- -fx-background-radius: 5 ;
- -fx-border-radius: 5 ;
- -fx-pref-height: 26;
- -fx-pref-width: 130;
+}
+
+.TopPanel { 
+
+ -fx-background-color: #faf3de;
+ -fx-min-height: 50;
+ -fx-max-height: 50;
+
+}
+
+.TextPanel { 
+
+
+}
+
+.text-area  { 
+ -fx-pref-height: 100; 
+}
+
+.text-area .content { 
+
+ -fx-background-color: #dee9fa;
+ 
 }

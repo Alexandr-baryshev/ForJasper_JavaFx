@@ -57,7 +57,6 @@ public class Controller {
             outText.setText("Введите приоритет сортировки R или C");
          }
 
-
       });
    }
 
